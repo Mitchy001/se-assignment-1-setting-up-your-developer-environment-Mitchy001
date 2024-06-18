@@ -48,6 +48,8 @@ Located at the bottom of the window.
 Shows information about the current workspace, such as branch name, encoding, line endings, and errors or warnings.
 You can click on items for more details or to change settings.
 Visual studio interface
+![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/b1aa50f5-5fde-46bc-a075-66250f4e0610)
+![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/9a8e98b6-30f7-4f2a-8b89-312744de5c8c)
  
        
 3. Version Control System:
@@ -74,12 +76,15 @@ Visual studio interface
 
 7. Development Environments and Virtualization (Optional):
 •	Consider using  virtual machines (e.g., Hyper-V, VirtualBox) to isolate project dependencies and manage consistent environments.
+![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/ffdbb35a-3c19-4562-b98e-a6e2bf9026a1)
+
  ![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/74cc5ead-539b-46d0-b305-42ebbe3c1e6e)
 
-8. Extensions and Plugins:
+9. Extensions and Plugins:
 •	Explore extensions for Visual Studio Code: Open Visual Studio Code, go to the Extensions view (Ctrl+Shift+X), and search for extensions related to your programming languages and workflow (e.g., Python, Git integration).
- 
-9. Document Your Setup:
+ ![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/d8e0a26c-cd70-4308-9e41-bd55cab0593b)
+
+10. Document Your Setup:
 •	Create a detailed document outlining:
 o	Steps taken to set up each tool and environment.
 o	Configurations made (e.g., Git configuration, Python installation).
