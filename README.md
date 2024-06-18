@@ -1,48 +1,92 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15271932&assignment_repo_type=AssignmentRepo)
-# Dev_Setup
-Setup Development Environment
+Operating System:
+•	Download and Install Windows 11: Visit Microsoft's Windows 11 download page and follow the installation instructions.
+ ![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/02e915e3-5170-46a6-b90a-bb37547c148e)
 
-#Assignment: Setting Up Your Developer Environment
+Window Installation process 2:
+   Step 1 - Format the drive and set the primary partition as active.
+Connect the USB flash drive to your technician PC.
+Open Disk Management: Right-click on Start and choose Disk Management.
+Format the partition: Right-click the USB drive partition and choose Format. Select the FAT32 file system to be able to boot either BIOS-based or UEFI-based PCs.
+Set the partition as active: Right-click the USB drive partition and click Mark Partition as Active.
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
 
-#Tasks:
+Step 2 - Copy Windows Setup to the USB flash drive.
 
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+Use File Explorer to copy and paste the entire contents of the Windows product DVD or ISO to the USB flash drive.
+Optional: add an unattend file to automate the installation process. For more information, see Automate Windows Setup.
 
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
 
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+Step 3 - Install Windows to the new PC.
 
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+Connect the USB flash drive to a new PC.
+Turn on the PC and press the key that opens the boot-device selection menu for the computer, such as the Esc/F10/F12 keys. Select the option that boots the PC from the USB flash drive.
+Windows Setup starts. Follow the instructions to install Windows.
+Remove the USB flash drive.
+2. Text Editor or IDE:
+•	 To install Visual Studio Code (VS Code), follow these steps: 
+•	Download: Visit the official Visual Studio Code website (https://code.visualstudio.com/) using your web browser. 
+•	Download Installer: Click on the "Download for Windows" button to download the installer file. 
+•	Run Installer: Once the download is complete, locate the downloaded installer file (usually in your Downloads folder) and double-click on it to run it. 
+•	Installation Wizard: Follow the prompts in the installation wizard. You can choose the installation location and whether to add VS Code to your PATH (environment variables) during the installation process. 
+•	Complete Installation: After the installation is complete, you can launch Visual Studio Code by double-clicking its shortcut icon on the desktop or by searching for "Visual Studio Code" in the Start menu
+  Main Components of the VS Code User Interface:
+   1. Activity Bar:
+Located on the far left of the interface.
+Provides access to different views like Explorer, Search, Source Control, Run and Debug, and Extensions.
+You can customize the Activity Bar by right-clicking and choosing which icons to show or hide.
+2. Side Bar:
+       Displays different panels depending on the Activity Bar selection.
+For instance, selecting Explorer shows the file explorer where you can manage project files.
+3. Editor Group:
+The main area where you edit files.
+Supports multiple editors side-by-side (split view).
+Tabs at the top show open files, and you can switch between them easily.
+4. Status Bar:
+Located at the bottom of the window.
+Shows information about the current workspace, such as branch name, encoding, line endings, and errors or warnings.
+You can click on items for more details or to change settings.
+Visual studio interface
+ 
+       
+3. Version Control System:
+•	Install Git: Download Git from git-scm.com and follow the installation instructions. Configure Git with your name and email.
+ 
+    Create a GitHub account: Sign up at GitHub to host your repositories.
+•	Initialize a Git repository: Navigate to your project folder in the command line (git init) and make your first commit (git commit -m "Initial commit").
+![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/df06e54d-36c0-4304-afc6-b90b83ef6f9e)
 
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+5. Programming Languages and Runtimes:
+•	Python: Download Python from python.org and install it on your system. Ensure you select the option to add Python to your PATH during installation.
+ ![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/88712717-712d-415c-ae26-c880e6f80bb1)
 
+
+•	Install respective compilers, interpreters, or runtimes as per your project requirements.
+ 
+5. Package Managers:
+•	pip (Python): Python usually comes with pip. Verify its installation by running pip --version in the command line.
+   ![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/96d3c6df-f9ba-43e4-8b17-4c39699f85d5)
+    
+6. Database (MySQL):
+•	Download and Install MySQL: Get MySQL from MySQL Community Downloads and follow the installation instructions. Choose the appropriate installer for your system (e.g., MySQL Installer for Windows).
+ ![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/a81a2cba-fbd6-4019-90cc-dc8978f201fe)
+
+7. Development Environments and Virtualization (Optional):
+•	Consider using  virtual machines (e.g., Hyper-V, VirtualBox) to isolate project dependencies and manage consistent environments.
+ ![image](https://github.com/Mitchy001/se-assignment-1-setting-up-your-developer-environment-Mitchy001/assets/140062227/74cc5ead-539b-46d0-b305-42ebbe3c1e6e)
+
+8. Extensions and Plugins:
+•	Explore extensions for Visual Studio Code: Open Visual Studio Code, go to the Extensions view (Ctrl+Shift+X), and search for extensions related to your programming languages and workflow (e.g., Python, Git integration).
+ 
 9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+•	Create a detailed document outlining:
+o	Steps taken to set up each tool and environment.
+o	Configurations made (e.g., Git configuration, Python installation).
+o	Customizations (e.g., Visual Studio Code settings, Docker configurations).
+o	Troubleshooting steps encountered and solutions applied.
 
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
 
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
 
 #Evaluation Criteria:**
 - Completeness and accuracy of setup documentation.
